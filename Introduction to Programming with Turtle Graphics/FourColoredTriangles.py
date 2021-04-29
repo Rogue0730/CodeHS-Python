@@ -1,0 +1,18 @@
+penup()
+setposition(-100, 0)
+pendown()
+
+for i in range(4):
+    pensize(5)
+    color("red")
+    forward(50)
+    left(120)
+    color("blue")
+    forward(50)
+    left(120)
+    color("green")
+    forward(50)
+    left(120)
+    penup()
+    forward(50)
+    pendown()
